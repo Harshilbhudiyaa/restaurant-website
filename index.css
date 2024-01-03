@@ -1,0 +1,720 @@
+body {
+    background-image: url(image/slide-3\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0%;
+    padding: 0%;
+}
+*
+{
+  font-family: Arial, Helvetica, sans-serif;  
+}
+::selection
+{
+    color: orangered;
+    background-color: rgb(187, 255, 0);
+}
+.nav_cont {
+ 
+    display: flex;
+    gap: 30%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.509);
+}
+
+ul {
+    width: 150%;
+}
+
+li {
+    display: inline;
+    padding: 3%;    
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover {
+    color: orangered;
+}
+
+.logo img {
+    height: 70px;
+    width: 100px;
+}
+.log_img2
+{
+    width: 200px;
+}
+.txt_cont {
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+}
+
+.txt_cont h1 {
+    font-size: 70px;
+    color: orangered;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+
+#in_txt {
+    font-size: 45px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+
+#qoute {
+    font-size: xx-large;
+    letter-spacing: 3px;
+}
+#question
+{
+    margin-left: 200px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#cp
+{
+    font-weight: bolder;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#im1
+{
+    transform: translateY(10px);
+}
+.service_cont {
+    background-color: white;
+    text-align: center;
+    height: 550px;
+    margin-top: 15%;
+}
+
+.txt_serv {
+    transform: translate(0px, 10px);
+    font-weight: bolder;
+}
+
+#ser {
+    color: orangered;
+    font-size: 25px;
+}
+
+.cont_card {
+    display: flex;
+    gap: 10%;
+   
+    justify-content: center;
+}
+
+.card1 {
+    border: 1px solid rgba(0, 0, 0, 0.355);
+    height: 400px;
+    width: 310px;
+    transition: 1s;
+    box-shadow: inset 2px 2px 10px black;
+    
+}
+
+.card1:hover {
+    height: 400px;
+    width: 310px;
+    box-shadow: 0px 0px 10px;
+    transform: scale(1.1);
+}
+
+.card2:hover {
+    height: 400px;
+    width: 310px;
+    box-shadow: 0px 0px 10px;
+}
+
+.card3:hover {
+    height: 400px;
+    width: 310px;
+    box-shadow: 0px 0px 10px;
+}
+
+.image1 img {
+    height: 60px;
+    width: 70px;
+    margin-top: 20px;
+}
+
+.head {
+    font-weight: bolder;
+    font-size: 20px;
+    text-shadow: 1px 1px 5px;
+}
+
+.sub_h {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+#btn_ord {
+    height: 30px;
+    width: 130px;
+    background-color: orangered;
+    color: white;
+    border: 2px solid orangered;
+    border-radius: 30px;
+}
+
+#btn_ord {
+    box-shadow: 0px 0px 10px orangered;
+}
+
+.main_about {
+    background-color: white;
+    height: 700px;
+    justify-content: center;
+}
+
+.sub_i1_i2 {
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+#i2 {
+    margin-top: 55px;
+}
+
+.sub_i3_i4 {
+    display: flex;
+    gap: 20px;
+    margin-left: 100px;
+}
+
+.main_about {
+    display: flex;
+    gap: 100px;
+}
+
+.main_about_2 {
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+#res {
+    color: orangered;
+    font-weight: bolder;
+    letter-spacing: 4px;
+}
+
+#about_txt {
+    font-weight: bolder;
+}
+
+#wel {
+    letter-spacing: 3px;
+}
+
+.main_about_2 {
+    text-align: center;
+}
+
+#enjoy {
+    color: orangered;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+.food_menu {
+    background-color: white;
+    height: 1000px;
+}
+
+.sub_menu {
+    text-align: center;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#food {
+    color: orangered;
+}
+
+.menu_img {
+    display: flex;
+    gap: 300px;
+    margin-top: 3%;
+    justify-content: center;
+}
+
+.footer_back {
+    background-color: white;
+    height: 250px;
+    box-shadow: 0px -2px 30px black;
+  /*  border-top-left-radius: 20px;
+    border-top-right-radius: 20px;*/
+}
+
+.cont_foot {
+    margin-left: 3%;
+    display: flex;
+    gap: 15%;
+}
+
+.logo_foot img {
+    height: 100px;
+}
+
+#foot_ul {
+    margin-left: -35px
+}
+
+#sub_foot_li {
+    color: rgb(47, 47, 47);
+}
+
+.use_link span {
+    font-size: x-large;
+}
+
+.con_foot span {
+    font-size: x-large;
+}
+
+.open_foot {
+    font-size: x-large;
+}
+
+.pizza1 {
+    font-size: larger;
+}
+
+#price {
+    color: rgb(74, 73, 73);
+}
+
+#sub_foot_li a {
+    color: rgb(58, 57, 57);
+}
+
+#sub_foot_li a :hover {
+    color: rgb(0, 0, 0);
+}
+
+#about_ {
+    color: white;
+    font-size: 80px;
+    font-style: oblique;
+    text-shadow: 2px 2px 7px orangered;
+    font-weight: bolder;
+}
+
+.open_foot p {
+    font-size: 17px;
+    margin-top: -3%;
+}
+
+.con_foot img {
+    height: 30px;
+    width: 30px;
+}
+
+.cont_foot span {
+    font-size: 16px;
+}
+
+.btn2 {
+    display: flex;
+    gap: 250px;
+}
+
+#ord_btn {
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    width: 80px;
+    height: 25px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px orangered;
+    transition: ease 0.5s;
+}
+#ord_btn:hover
+{
+    transform: scale(1.3);
+    background-color: white;
+    color: orangered;
+}
+.contact_backg
+{
+    background-color: white;
+    height:900px;
+    width: 100%;
+    margin-top: 17%;
+}
+.txt1_cont
+{
+    text-align: center;
+    transform: translate(0px,20px);
+}
+.logo_txt_lme
+{
+    display: flex;
+    gap: 20%;
+    margin-left: 10%;
+}
+.main_for_cont
+{
+    display: flex;
+    gap: 30px;
+}
+.main_for_cont
+{
+    background-color: white;
+    box-shadow: 0px 0px 16px black;
+    width: 1300px;
+    height:550px;  
+    margin-left: 15%;
+}
+#con_img
+{
+    height: 550px;
+    width: 590px;
+}
+/* .form_cont
+{
+    background-color: white;
+     margin-left: 15%;
+    box-shadow: 0px 0px 16px black;
+    width: 1300px;
+    height:550px;
+    justify-content: center;
+} */
+#in
+{
+    margin-left: 20px;
+    width: 650px;
+}
+#message
+{
+    height: 200px;
+    width: 651px;
+    margin-left: 20px;
+}
+#btn_sub
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 50px;
+    width: 659px;
+    background-color: orangered;
+    border: 1px solid orangered;
+    color: white;
+    transition: ease 0.5s;
+}
+#btn_sub:hover
+{
+    background-color: transparent;
+    color: orangered;
+    border: 2px solid orangered;
+    transform: translateY(-10px);
+}
+#l
+{
+   transform: translateY(10px);
+    filter: drop-shadow(2px 2px 0px);
+}
+#ll
+{
+   transform: translateY(17px);
+   filter: drop-shadow(2px 2px 0px);
+}
+
+#lll
+{
+   transform: translateY(15px);
+   filter: drop-shadow(2px 2px 0px); 
+}
+.login_back
+{
+    background-color: white;
+    height: 700px;
+    margin-top: 15%;
+    width: 100%;
+}
+.form_log_flex
+{
+    display: flex;
+    gap: 20px;
+    box-shadow: 0px 0px 20px black;
+    width: 1300px;
+    height: 600px;
+    margin-left: 10%;
+    
+    transform: translate(0%,10%);
+}
+
+#log
+{
+    color: orangered;
+    font-weight: bolder;  
+    font-size: 30px;
+    letter-spacing: 5px; 
+    margin-left: 38%;
+    margin-top: 10px;
+}
+#log
+{
+    transform: translate(0%,10px);
+}
+#email
+{
+    width: 650px;
+    
+}
+#pass
+{
+    width: 650px;
+}
+#log_img_size
+{
+    height: 600px;
+    width: 600px;
+    flex-wrap: wrap;
+}
+
+#log_img_size2
+{
+    height: 600px;
+    width: 623px;
+}
+input
+{
+    height: 40px;
+    width: 700px;
+}
+#in_c
+{
+    font-weight: bolder;
+    font-size: xx-large;
+    text-shadow: 0px 0px 10px black;
+}
+#con_tact
+{
+    color: orangered;
+    font-weight: bolder;
+    text-shadow: 2px 1px 7px black;
+    font-size: 20px;
+}
+#sub_mit
+{
+    margin-top: 25  0px;
+    width: 655px;
+    height: 40px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    transition: 0.5s;
+}
+#sub_mit2
+{
+    margin-top: 25  0px;
+    width: 649px;
+    height: 40px;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    transition: 0.5s;
+}
+#sub_mit2:hover
+{
+    margin-top: 25  0px;
+    width: 649px;
+    height: 40px;
+    background-color:transparent;
+    color:orangered;
+    border: 1px solid orangered;
+    transform: translateY(-10px);
+}
+#email_err
+{
+    margin-left: 20px;
+}
+#subject_err
+{
+    margin-left: 20px;
+}
+#message_err
+{
+    margin-left: 20px;
+}
+#email
+{
+    width: 649px;
+    margin-left: 20px;
+}
+#subject
+{
+    width: 649px;
+    margin-left: 20px;
+}
+#message    
+{
+    width: 649px;
+    margin-left: 20px;
+}
+#user1
+{
+    width:  649px;
+}
+#email2
+{
+    width:  649px;
+}
+#pass3
+{
+    width:  649px;
+}
+.log_txt1
+{
+    margin-top: 100px;
+}
+.log_txt2
+{
+    margin-top: 100px;
+    margin-left: 20px;
+}
+#sub_mit:hover
+{
+    transform: translateY(-5px);
+    background-color: transparent;
+    color: orangered;
+    font-weight: bolder;
+    border:2px solid orangered;
+}
+
+#register
+{
+    color:blue;
+    font-weight: 900;
+}
+.menu_page span
+{
+    color: orangered;
+    text-shadow: 2px 1px 4px black;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    font-size: large;
+}
+.container
+  {
+    display: flex;
+    height: 605px;
+    width: 1205px;
+    align-items: center;
+    overflow: hidden;
+    margin-left: 15%;
+  
+  }
+  .slider #i2
+  {
+    height: 600px;
+    width: 900px;
+  }
+  .slider_back
+  {
+    background-color: white;
+}
+  #m1
+  {
+     height: 300px;
+  }
+  #m2
+  {
+    height: 300px;
+  }
+
+  .menu_1
+  {
+    display: flex;
+    gap: 30%;
+    justify-content: center;
+    margin-left: -15%;
+  }
+#choc
+{
+    height: 300px;
+}
+#cpass
+{
+    width:  649px;
+}
+#user12
+{
+    width:  649px;
+}
+
+#email3
+{
+    width:  649px;
+}
+
+#pass4
+{
+    width:  649px;
+}
+.ord_back
+{
+    background-color: white;
+    height: 700px;
+    margin-top: 25%;
+}
+.sub_ord_form
+{
+    background-color: white;
+    box-shadow: 0px 0px 16px black;
+    width: 750px;
+    height: 600px;
+    margin-left:33%;
+    
+}
+.sub_ord_form input
+{
+    margin-left: 15px;
+    height: 5   0px;
+}
+#sub_ord
+{
+    margin-top: 60px;
+    margin-left: 20px;
+    background-color: orangered;
+    border: 1px solid orangered;
+    color:white;
+    transition: ease 0.5s;
+}
+#sub_ord:hover
+{
+    background-color: rgb(255, 255, 255);
+    color: orangered;
+    transform: scale(1.05);
+}
+.sub_ord_form button
+{
+    background-color: orangered;
+    border: 1px solid orangered;
+    color: white;
+    transition: ease-in 0.5s;
+    width: 700px;
+    height: 40px;
+    margin-left: 15px;
+}
+.sub_ord_form button:hover{
+    transform: scale(1.01);
+    background-color: white;
+    color: orangered;
+}
+.sub_ord_form span
+{
+    margin-left: 15px;
+}
